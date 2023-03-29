@@ -1,0 +1,44 @@
+.Root{
+    margin: 0 auto;
+    padding: 40px 0px 70px 0px;
+    background-color: #e6eef5;
+    height: 100vh;
+    width: 100%;
+}
+.Root h4{
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+    font-family: monospace;
+    margin: 0;
+}
+.searchBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px 50px 20px;
+}
+.searchBox > input{
+    width: 85%;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid #000!important;
+    color: #000;
+    font-family: monospace;
+}
+.searchBox > input:focus{
+    outline: none!important;
+}
+.searchBox button{
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: black;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-family: cursive;
+    border-radius: 5px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
